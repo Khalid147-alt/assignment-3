@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Assignment-3",
-  description: "this is 3rd assignment of my giaic q-2",
+  title: "Assignment-4&5",
+  description: "this is 4 and 5 assignment of my giaic q-2",
 };
 
 export default function RootLayout({
