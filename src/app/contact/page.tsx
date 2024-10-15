@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from 'next/link';  
 
 const Contact: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
       <main className="main">
         <h1 className="title">Contact Me</h1>
         <div className="contact-content">
-          <p>I'd love to hear from you! Here's how you can reach me:</p>
+          <p>I&apos;d love to hear from you! Here&apos;s how you can reach me:</p> 
           <div className="contact-info">
             <div className="contact-item">
               <h2>Email</h2>
@@ -29,24 +29,6 @@ const Contact: React.FC = () => {
               <p>Shahdadpur, Sindh, Pakistan</p>
               <p>(25 km from my village)</p>
             </div>
-          </div>
-          <div className="contact-form">
-            <h2>Send me a message</h2>
-            <form>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-              </div>
-              <button type="submit" className="submit-btn">Send Message</button>
-            </form>
           </div>
         </div>
       </main>

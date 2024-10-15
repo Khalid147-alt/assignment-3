@@ -1,9 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next";  
 import localFont from "next/font/local";
 import "./globals.css";
-import Link from "next/link";
-import About from "./about/page";
-import Contact from "./contact/page";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,22 +14,21 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Assignment-4&5",
-  description: "this is 4 and 5 assignment of my giaic q-2",
+  title: "Assignment-3",
+  description: "This is the 3rd assignment of my GIAIC Q-2",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode;  
+}) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        
       </body>
     </html>
   );

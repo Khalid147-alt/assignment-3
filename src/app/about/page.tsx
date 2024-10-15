@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
+import Link from 'next/link';  
 
-const About: React.FC = () => {
+const About: React.FC = () => { 
   return (
     <div className="container">
       <header className="header">
@@ -15,27 +15,13 @@ const About: React.FC = () => {
         <h1 className="title">About Me</h1>
         <div className="about-content">
           <p>
-            Hey there! I'm Khalid Hussain, a passionate frontend developer in the making. I'm currently enrolled in the Governor's Initiative for AI, Web 3.0, and Metaverse, where I'm diving deep into the world of Next.js and modern web technologies.
+            Hey there! I&apos;m Khalid Hussain, a passionate frontend developer in the making. I&apos;m currently enrolled in the Governor&apos;s Initiative for AI, Web 3.0, and Metaverse, where I&apos;m diving deep into the world of Next.js and modern web technologies.
           </p>
           <p>
-            My journey in tech is driven by a fascination with creating seamless, user-friendly interfaces that bridge the gap between complex systems and everyday users. I'm particularly excited about the potential of Web 3.0 and how it's reshaping the digital landscape.
+            My journey in tech is driven by a fascination with creating seamless, user-friendly interfaces that bridge the gap between complex systems and everyday users. I&apos;m particularly excited about the potential of Web 3.0 and how it&apos;s reshaping the digital landscape.
           </p>
           <p>
-            When I'm not coding, you can find me exploring the latest trends in UI/UX design, contributing to open-source projects, or sharing my learning journey with fellow developers in online communities.
-          </p>
-          <h2>Skills & Expertise</h2>
-          <ul className="skills-list">
-            <li>HTML5 & CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>React.js</li>
-            <li>Next.js</li>
-            <li>TypeScript</li>
-            <li>Responsive Web Design</li>
-            <li>Version Control (Git)</li>
-            <li>Web Accessibility</li>
-          </ul>
-          <p>
-            I'm always eager to learn and grow. Feel free to reach out if you'd like to collaborate on a project or just chat about the exciting world of web development!
+            When I&apos;m not coding, you can find me exploring the latest trends in UI/UX design, contributing to open-source projects, or sharing my learning journey with fellow developers in online communities.
           </p>
         </div>
       </main>
@@ -47,3 +33,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+

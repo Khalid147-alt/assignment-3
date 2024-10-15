@@ -1,13 +1,10 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
+  "extends": "next/core-web-vitals",
   "rules": {
-    // Add your custom rules here
+    "no-unused-vars": "off",         // Disables warning for unused variables
+    "react/prop-types": "off",       // Disables prop-types rule (if you're using TypeScript)
+    "react/react-in-jsx-scope": "off", // Disable the need for React import in every file
+    "no-console": "off",             // Disable console warnings
+    "no-debugger": "off"             // Disable debugger warnings
   }
 }
